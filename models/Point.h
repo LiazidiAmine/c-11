@@ -13,6 +13,7 @@ class Point {
         ~Point();
         void init(float, float);
         void move(float, float);
+        bool operator==(Point const& point);
         void info() const;
         float get_x() const;
         float get_y() const;

@@ -35,3 +35,10 @@ float Point::get_y() const
 {
     return y;
 }
+bool operator==(Point const& point){
+    if (point.get_x() == this->get_x() && point.get_y() == this->get_y())
+    {
+        return true;
+    }
+    return false;
+}

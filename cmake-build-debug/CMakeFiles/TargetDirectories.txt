@@ -1,0 +1,3 @@
+/home/phoenix/CLionProjects/cpp_images/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/phoenix/CLionProjects/cpp_images/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/phoenix/CLionProjects/cpp_images/cmake-build-debug/CMakeFiles/cpp_images.dir

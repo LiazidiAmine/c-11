@@ -16,6 +16,7 @@ class Right {
         void init(Point &a_,Point &b_);
         void move(Point &a_,Point &b_);
         void info() const;
+
     private:
         Point a,b;
 };

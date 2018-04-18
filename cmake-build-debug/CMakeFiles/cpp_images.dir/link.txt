@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/cpp_images.dir/main.cpp.o CMakeFiles/cpp_images.dir/models/Shape.cpp.o CMakeFiles/cpp_images.dir/models/Triangle.cpp.o CMakeFiles/cpp_images.dir/models/Rectangle.cpp.o CMakeFiles/cpp_images.dir/models/Point.cpp.o CMakeFiles/cpp_images.dir/models/Right.cpp.o  -o cpp_images 
