@@ -11,16 +11,18 @@ class Shape {
         Shape(int x, int y);
         int getX();
         int getY();
+        double getAngle();
         void setX(int x);
         void setY(int y);
         void setPosition(int x, int y);
         void moveTo(int dx, int dy);
+        void rotate(double angle);
         virtual double getArea();
         virtual double getPerimeter();
         virtual void draw();
 
     private:
-        int x, y;
+        int x, y, angle;
 };
 
 

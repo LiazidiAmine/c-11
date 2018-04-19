@@ -23,5 +23,5 @@ double getArea(){
 
 void Circle::draw() {
     //cout << "Circle :(" << getX() << "," << getY() <<
-      //   "), radius " << getRadius()<< endl;
+      //   "), radius " << getRadius() << ", area :" << getArea() << ", angle :" << geAngle() << endl;
 }

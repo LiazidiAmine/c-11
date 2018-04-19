@@ -38,6 +38,10 @@ double getPerimeter(){
     return 2(width+height);
 }
 
+void rotate(double angle){
+
+}
+
 void Rectangle::draw() {
-    cout << "Rectangle :(" << getX() << "," << getY() << "), width :" << getWidth() << ", height :" << getHeight() << endl;
+    cout << "Rectangle :(" << getX() << "," << getY() << "), width :" << getWidth() << ", height :" << getHeight() << ", area :" << getArea() << ", perimeter :" << getPerimeter() << ", angle :" << getAngle() << endl;
 }

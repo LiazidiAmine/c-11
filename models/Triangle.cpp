@@ -37,5 +37,5 @@ double Triangle::getArea() {
 
 void Triangle::draw() {
     cout << "Triangle :(" << getX() << "," << getY() <<
-         "), Base : " << getBase() << ", Height : " << getBase() << endl;
+         "), Base : " << getBase() << ", Height : " << getHeight() << ", area :" << getArea() << ", angle :" << getAngle() << endl;
 }
