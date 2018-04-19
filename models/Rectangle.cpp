@@ -31,15 +31,8 @@ void Rectangle::setHeight(int height_in) {
     height = height_in;
 }
 
-double getArea(){
+double Rectangle::getArea(){
     return width * height;
-}
-double getPerimeter(){
-    return 2(width+height);
-}
-
-void rotate(double angle){
-
 }
 
 void Rectangle::draw() {

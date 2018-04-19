@@ -17,11 +17,10 @@ void Circle::setRadius(int radius_in) {
     radius = radius_in;
 }
 
-double getArea(){
+double Circle::getArea(){
     return (PI*radius*radius);
 }
 
 void Circle::draw() {
-    //cout << "Circle :(" << getX() << "," << getY() <<
-      //   "), radius " << getRadius() << ", area :" << getArea() << ", angle :" << geAngle() << endl;
+    //cout << "Circle :(" << getX() << "," << getY() << "), radius " << getRadius() << ", area :" << getArea() << ", angle :" << geAngle() << endl;
 }

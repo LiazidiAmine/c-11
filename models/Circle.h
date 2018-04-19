@@ -1,7 +1,7 @@
 //
 // Created by phoenix on 4/19/18.
 //
-
+#include <iostream>
 #ifndef CPP_IMAGES_CIRCLE_H
 #define CPP_IMAGES_CIRCLE_H
 

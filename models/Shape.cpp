@@ -46,17 +46,12 @@ double Shape::getArea() {
 
 }
 
-double Shape::getPerimeter() {
-
-}
-
-void Shape::rotate(double angle) {
+void Shape::rotate(double angle_in) {
     int x_ = x;
     int y_ = y;
-    int angle_ = angle;
-    angle += angle_;
-    x = x_*cos(angle) - y_*sin(angle);
-    y = x_*sin(angle) - y_*cos(angle);
+    angle += angle_in;
+    x = x_*cos(angle_in) - y_*sin(angle_in);
+    y = x_*sin(angle_in) - y_*cos(angle_in);
 }
 
 void Shape::draw() {
