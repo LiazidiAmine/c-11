@@ -36,5 +36,5 @@ double Rectangle::getArea(){
 }
 
 void Rectangle::draw() {
-    cout << "Rectangle :(" << getX() << "," << getY() << "), width :" << getWidth() << ", height :" << getHeight() << ", area :" << getArea() << ", perimeter :" << getPerimeter() << ", angle :" << getAngle() << endl;
+    cout << "Rectangle :(" << getX() << "," << getY() << "), width :" << getWidth() << ", height :" << getHeight() << ", area :" << getArea() << ", angle :" << getAngle() << endl;
 }
