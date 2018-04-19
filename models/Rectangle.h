@@ -15,6 +15,8 @@ class Rectangle : public Shape{
         void setWidth(int width);
         int getHeight();
         void setHeight(int height);
+        double getArea();
+        double getPerimeter();
         void draw();
 
     private:

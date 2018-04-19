@@ -31,6 +31,13 @@ void Rectangle::setHeight(int height_in) {
     height = height_in;
 }
 
+double getArea(){
+    return width * height;
+}
+double getPerimeter(){
+    return 2(width+height);
+}
+
 void Rectangle::draw() {
     cout << "Rectangle :(" << getX() << "," << getY() << "), width :" << getWidth() << ", height :" << getHeight() << endl;
 }

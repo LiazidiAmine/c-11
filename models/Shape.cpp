@@ -36,6 +36,14 @@ void Shape::moveTo(int dx, int dy) {
     setPosition(getX() + dx, getY() + dy);
 }
 
+double Shape::getArea() {
+
+}
+
+double Shape::getPerimeter() {
+
+}
+
 void Shape::draw() {
 
 }

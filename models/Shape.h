@@ -15,6 +15,8 @@ class Shape {
         void setY(int y);
         void setPosition(int x, int y);
         void moveTo(int dx, int dy);
+        virtual double getArea();
+        virtual double getPerimeter();
         virtual void draw();
 
     private:

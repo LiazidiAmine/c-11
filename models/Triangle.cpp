@@ -31,6 +31,10 @@ void Triangle::setBase(int base_in) {
     base = base_in;
 }
 
+double Triangle::getArea() {
+    return (0.5*base*height);
+}
+
 void Triangle::draw() {
     cout << "Triangle :(" << getX() << "," << getY() <<
          "), Base : " << getBase() << ", Height : " << getBase() << endl;

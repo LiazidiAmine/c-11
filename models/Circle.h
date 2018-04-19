@@ -12,6 +12,7 @@ public:
     Circle(int x, int y, int radius);
     int getRadius();
     void setRadius(int radius_in);
+    double getArea();
     void draw();
 
 private:

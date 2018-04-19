@@ -14,6 +14,7 @@ class Triangle : public Shape{
         int getHeight();
         void setHeight(int heigh_in);
         void setBase(int base_in);
+        double getArea();
         void draw();
 
 

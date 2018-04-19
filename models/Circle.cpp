@@ -1,10 +1,10 @@
 //
 // Created by phoenix on 4/19/18.
 //
+#include <iostream>
 #include "Shape.h"
 #include "Circle.h"
-#include <iostream>
-
+const double PI = 3.141592653589793;
 Circle::Circle(int x, int y, int radius): Shape(x, y) {
         setRadius(radius);
 }
@@ -17,7 +17,11 @@ void Circle::setRadius(int radius_in) {
     radius = radius_in;
 }
 
+double getArea(){
+    return (PI*radius*radius);
+}
+
 void Circle::draw() {
-    cout << "Circle :(" << getX() << "," << getY() <<
-         "), radius " << getRadius()<< endl;
+    //cout << "Circle :(" << getX() << "," << getY() <<
+      //   "), radius " << getRadius()<< endl;
 }
