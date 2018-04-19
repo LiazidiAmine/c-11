@@ -8,11 +8,17 @@
 
 class Shape {
     public:
-        Shape();
-        float get_area();
+        Shape(int x, int y);
+        int getX();
+        int getY();
+        void setX(int x);
+        void setY(int y);
+        void setPosition(int x, int y);
+        void moveTo(int dx, int dy);
+        virtual void draw();
 
     private:
-        float area, perimeter;
+        int x, y;
 };
 
 

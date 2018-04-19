@@ -9,12 +9,17 @@
 
 class Triangle : public Shape{
     public:
-        Triangle(float Base, float Height);
-        float get_area();
+        Triangle(int base, int height, int x, int y);
+        int getBase();
+        int getHeight();
+        void setHeight(int heigh_in);
+        void setBase(int base_in);
+        void draw();
+
 
 
     private:
-        float base, height;
+        int base, height;
 };
 
 

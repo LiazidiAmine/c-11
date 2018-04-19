@@ -3,17 +3,39 @@
 //
 
 #include "Shape.h"
-#include "Triangle.h"
-#include "Rectangle.h"
 #include <iostream>
 
 using namespace std;
 
-Shape::Shape(){
-    area = 0.0;
-    perimeter = 0.0;
+Shape::Shape(int x, int y){
+    setPosition(x, y);
 }
 
-float Shape::get_area(){
-    return area;
+int Shape::getX() {
+    return x;
+}
+
+int Shape::getY() {
+    return y;
+}
+
+void Shape::setX(int x_in) {
+    x = x_in;
+}
+
+void Shape::setY(int y_in) {
+    y = y_in;
+}
+
+void Shape::setPosition(int x, int y) {
+    setX(x);
+    setY(y);
+}
+
+void Shape::moveTo(int dx, int dy) {
+    setPosition(getX() + dx, getY() + dy);
+}
+
+void Shape::draw() {
+
 }

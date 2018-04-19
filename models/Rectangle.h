@@ -10,12 +10,15 @@
 
 class Rectangle : public Shape{
     public:
-        Rectangle(float Width, float Length);
-        float get_area();
-        float get_perimeter();
+        Rectangle(int width, int height, int x, int y);
+        int getWidth();
+        void setWidth(int width);
+        int getHeight();
+        void setHeight(int height);
+        void draw();
 
     private:
-        float width, length;
+        int width, height;
 };
 
 

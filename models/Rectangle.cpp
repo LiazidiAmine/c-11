@@ -10,15 +10,27 @@
 using namespace std;
 
 
-Rectangle::Rectangle(float Width, float Length){
-    width = Width;
-    length = Length;
+Rectangle::Rectangle(int x, int y, int width, int height): Shape(x, y){
+    setWidth(width);
+    setHeight(height);
 }
 
-float Rectangle::get_area(){
-    return width*length;
+int Rectangle::getWidth() {
+    return width;
 }
 
-float Rectangle::get_perimeter(){
-    return 2*(length+width);
+void Rectangle::setWidth(int width_in) {
+    width = width_in;
+}
+
+int Rectangle::getHeight() {
+    return height;
+}
+
+void Rectangle::setHeight(int height_in) {
+    height = height_in;
+}
+
+void Rectangle::draw() {
+    cout << "Rectangle :(" << getX() << "," << getY() << "), width :" << getWidth() << ", height :" << getHeight() << endl;
 }
